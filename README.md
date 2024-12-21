@@ -101,12 +101,6 @@ Initializes threads for crawling multiple URLs concurrently.
 
 ---
 
-## **License**
-
-This project is licensed under the MIT License. Feel free to use, modify, and distribute it as you like.
-
----
-
 ## **Contributing**
 
 Contributions are welcome! If you have ideas for improvements, please submit a pull request or open an issue.
