@@ -11,10 +11,6 @@ using namespace std;
 mutex m;
 
 //download html in file
-
-
-
-
 void get_page(const char* url, const char* file_name)
 {
   CURL* easyhandle = curl_easy_init(); // initialize the curl Object
@@ -55,9 +51,6 @@ vector<string> extract_hyperlinks(string html_file_name )
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //validate the links
-
-
-
 void cleanUp(vector<string>&all_links )
 {
   vector<string>final_links;// it will store all the valid links
